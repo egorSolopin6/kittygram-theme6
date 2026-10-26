@@ -1,0 +1,421 @@
+{
+  "created": {
+    "method": "PATCH",
+    "url": "/api/cats/16/",
+    "status": 200,
+    "request": {
+      "color": "gray"
+    },
+    "response": {
+      "id": 16,
+      "name": "Сириус",
+      "color": "gray",
+      "birth_year": 2024,
+      "owner": 2
+    }
+  },
+  "deleted": {
+    "method": "DELETE",
+    "url": "/api/cats/16/",
+    "status": 204,
+    "request": null,
+    "response": null
+  },
+  "cats": {
+    "method": "GET",
+    "url": "/api/cats/?page_size=100",
+    "status": 200,
+    "request": null,
+    "response": {
+      "count": 14,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 2,
+          "name": "1",
+          "color": "2",
+          "birth_year": null,
+          "owner": null
+        },
+        {
+          "id": 3,
+          "name": "Барсик",
+          "color": "black",
+          "birth_year": 2023,
+          "owner": null
+        },
+        {
+          "id": 4,
+          "name": "Луна",
+          "color": "black",
+          "birth_year": 2022,
+          "owner": 2
+        },
+        {
+          "id": 5,
+          "name": "Персик",
+          "color": "orange",
+          "birth_year": 2021,
+          "owner": 3
+        },
+        {
+          "id": 6,
+          "name": "Симба",
+          "color": "golden",
+          "birth_year": 2020,
+          "owner": 2
+        },
+        {
+          "id": 7,
+          "name": "Мурка",
+          "color": "gray",
+          "birth_year": 2023,
+          "owner": 3
+        },
+        {
+          "id": 8,
+          "name": "Снежок",
+          "color": "white",
+          "birth_year": 2024,
+          "owner": 2
+        },
+        {
+          "id": 9,
+          "name": "Марс",
+          "color": "black",
+          "birth_year": 2019,
+          "owner": 3
+        },
+        {
+          "id": 10,
+          "name": "Буся",
+          "color": "tricolor",
+          "birth_year": 2022,
+          "owner": 2
+        },
+        {
+          "id": 11,
+          "name": "Тимоша",
+          "color": "gray",
+          "birth_year": 2021,
+          "owner": 3
+        },
+        {
+          "id": 12,
+          "name": "Нюша",
+          "color": "white",
+          "birth_year": 2023,
+          "owner": 2
+        },
+        {
+          "id": 13,
+          "name": "Пиксель",
+          "color": "black",
+          "birth_year": 2024,
+          "owner": 3
+        },
+        {
+          "id": 14,
+          "name": "Зефир",
+          "color": "white",
+          "birth_year": 2025,
+          "owner": 2
+        },
+        {
+          "id": 15,
+          "name": "Облако",
+          "color": "white",
+          "birth_year": 2024,
+          "owner": 16
+        }
+      ]
+    }
+  },
+  "anna": {
+    "method": "GET",
+    "url": "/api/cats/?page_size=100",
+    "status": 200,
+    "request": null,
+    "response": {
+      "count": 6,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 4,
+          "name": "Луна",
+          "color": "black",
+          "birth_year": 2022,
+          "owner": 2
+        },
+        {
+          "id": 6,
+          "name": "Симба",
+          "color": "golden",
+          "birth_year": 2020,
+          "owner": 2
+        },
+        {
+          "id": 8,
+          "name": "Снежок",
+          "color": "white",
+          "birth_year": 2024,
+          "owner": 2
+        },
+        {
+          "id": 10,
+          "name": "Буся",
+          "color": "tricolor",
+          "birth_year": 2022,
+          "owner": 2
+        },
+        {
+          "id": 12,
+          "name": "Нюша",
+          "color": "white",
+          "birth_year": 2023,
+          "owner": 2
+        },
+        {
+          "id": 14,
+          "name": "Зефир",
+          "color": "white",
+          "birth_year": 2025,
+          "owner": 2
+        }
+      ]
+    }
+  },
+  "boris": {
+    "method": "GET",
+    "url": "/api/cats/?page_size=100",
+    "status": 200,
+    "request": null,
+    "response": {
+      "count": 5,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 5,
+          "name": "Персик",
+          "color": "orange",
+          "birth_year": 2021,
+          "owner": 3
+        },
+        {
+          "id": 7,
+          "name": "Мурка",
+          "color": "gray",
+          "birth_year": 2023,
+          "owner": 3
+        },
+        {
+          "id": 9,
+          "name": "Марс",
+          "color": "black",
+          "birth_year": 2019,
+          "owner": 3
+        },
+        {
+          "id": 11,
+          "name": "Тимоша",
+          "color": "gray",
+          "birth_year": 2021,
+          "owner": 3
+        },
+        {
+          "id": 13,
+          "name": "Пиксель",
+          "color": "black",
+          "birth_year": 2024,
+          "owner": 3
+        }
+      ]
+    }
+  },
+  "viewer": {
+    "method": "GET",
+    "url": "/api/cats/",
+    "status": 200,
+    "request": null,
+    "response": {
+      "count": 1,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 15,
+          "name": "Облако",
+          "color": "white",
+          "birth_year": 2024,
+          "owner": 16
+        }
+      ]
+    }
+  },
+  "day": {
+    "method": "GET",
+    "url": "/api/showcase/day/",
+    "status": 200,
+    "request": null,
+    "response": {
+      "id": 42,
+      "date": "2026-10-26",
+      "cat": {
+        "id": 4,
+        "name": "Луна",
+        "color": "black"
+      },
+      "score": 6
+    }
+  },
+  "week": {
+    "method": "GET",
+    "url": "/api/showcase/week/?page_size=1",
+    "status": 200,
+    "request": null,
+    "response": {
+      "count": 9,
+      "next": "http://127.0.0.1:8000/api/showcase/week/?page=2&page_size=1",
+      "previous": null,
+      "results": [
+        {
+          "rank": 1,
+          "cat_id": 4,
+          "name": "Луна",
+          "color": "black",
+          "score": 38
+        }
+      ],
+      "date_from": "2026-10-20",
+      "date_to": "2026-10-26"
+    }
+  },
+  "daily": {
+    "method": "GET",
+    "url": "/api/showcase/daily/?date=2026-10-26&cat=4&page_size=1",
+    "status": 200,
+    "request": null,
+    "response": {
+      "count": 1,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 42,
+          "date": "2026-10-26",
+          "cat": {
+            "id": 4,
+            "name": "Луна",
+            "color": "black"
+          },
+          "score": 6
+        }
+      ]
+    }
+  },
+  "mine": {
+    "method": "GET",
+    "url": "/api/showcase/my-votes/?page_size=100",
+    "status": 200,
+    "request": null,
+    "response": {
+      "count": 3,
+      "next": null,
+      "previous": null,
+      "results": [
+        {
+          "id": 109,
+          "date": "2026-10-26",
+          "cat_id": 4,
+          "cat_name": "Луна",
+          "created_at": "2026-10-26T09:09:37.494163+03:00"
+        },
+        {
+          "id": 84,
+          "date": "2026-10-25",
+          "cat_id": 4,
+          "cat_name": "Луна",
+          "created_at": "2026-10-25T05:34:40.283142+03:00"
+        },
+        {
+          "id": 83,
+          "date": "2026-10-24",
+          "cat_id": 4,
+          "cat_name": "Луна",
+          "created_at": "2026-10-24T19:38:03.465171+03:00"
+        }
+      ]
+    }
+  },
+  "public": {
+    "method": "GET",
+    "url": "/api/showcase/cats/?page_size=1",
+    "status": 200,
+    "request": null,
+    "response": {
+      "count": 14,
+      "next": "http://127.0.0.1:8000/api/showcase/cats/?page=2&page_size=1",
+      "previous": null,
+      "results": [
+        {
+          "id": 2,
+          "name": "1",
+          "color": "2"
+        }
+      ]
+    }
+  },
+  "foreign": {
+    "method": "PATCH",
+    "url": "/api/cats/4/",
+    "status": 404,
+    "request": {
+      "name": "Чужой кот"
+    },
+    "response": {
+      "detail": "Страница не найдена."
+    }
+  },
+  "reader": {
+    "method": "POST",
+    "url": "/api/cats/",
+    "status": 403,
+    "request": {
+      "name": "Запрет",
+      "color": "gray"
+    },
+    "response": {
+      "detail": "У вас недостаточно прав для выполнения данного действия."
+    }
+  },
+  "duplicate": {
+    "method": "POST",
+    "url": "/api/cats/4/vote/",
+    "status": 400,
+    "request": {},
+    "response": {
+      "vote": "Вы уже голосовали сегодня. Сначала отзовите предыдущий голос."
+    }
+  },
+  "future": {
+    "method": "GET",
+    "url": "/api/showcase/day/?date=2099-01-01",
+    "status": 400,
+    "request": null,
+    "response": {
+      "date": "Дата не может быть в будущем."
+    }
+  },
+  "anonymous": {
+    "method": "GET",
+    "url": "/api/cats/",
+    "status": 401,
+    "request": null,
+    "response": {
+      "detail": "Учетные данные не были предоставлены."
+    }
+  }
+}
